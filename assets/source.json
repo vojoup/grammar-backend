@@ -1,29 +1,143 @@
 {
   "topics": [
-    "work",
-    "nature"
+    "vegetables",
+    "meat",
+    "side dishes"
   ],
   "vocab": {
-    "nature": [
+    "vegetables": [
       {
-        "zvire": "animal"
+        "avokádo  ": "avocado"
       },
       {
-        "strom": "tree"
+        "brambora": "potato"
+      },
+      {
+        "brokolice": "broccoli"
+      },
+      {
+        "celer": "celery"
+      },
+      {
+        "česnek": "garlic"
+      },
+      {
+        "hrášek": "pea"
+      },
+      {
+        "květák": "cauliflower"
+      },
+      {
+        "lilek": "eggplant"
+      },
+      {
+        "meloun": "melon"
+      },
+      {
+        "mrkev": "carrot"
       },
       {
         "brouk": "bug"
+      },
+      {
+        "okurka": "cucumber"
+      },
+      {
+        "paprika": "pepper"
+      },
+      {
+        "petržel": "parsley"
+      },
+      {
+        "rajče": "tomato"
+      },
+      {
+        "ředkvička": "radish"
+      },
+      {
+        "salát": "lettuce"
+      },
+      {
+        "špenát": "spinach"
+      },
+      {
+        "zelí": "cabbage"
+      },
+      {
+        "petržel": "parsley"
+      },
+      {
+        "chřest": "asparagus"
+      },
+      {
+        "dýně": "pumpkin"
       }
     ],
-    "work": [
+    "meat": [
       {
-        "zamestnanec": "employee"
+        "kuře": "chicken"
       },
       {
-        "schuzka": "meeting"
+        "vepřové": "pork"
       },
       {
-        "spolecnost": "company"
+        "telecí": "veal"
+      },
+      {
+        "jehněčí": "lamb"
+      },
+      {
+        "skopové": "mutton"
+      },
+      {
+        "krůta": "turkey"
+      },
+      {
+        "husa": "goose"
+      },
+      {
+        "kachna": "duck"
+      },
+      {
+        "pstruh": "trout"
+      },
+      {
+        "kapr": "carp"
+      },
+      {
+        "sekané maso": "minced meat"
+      },
+      {
+        "mleté maso": "ground meat"
+      }
+    ],
+    "side dishes": [
+      {
+        "bramborový knedlík": "potato dumpling"
+      },
+      {
+        "těstoviny": "pasta"
+      },
+      {
+        "bramborák": "porato pancakce"
+      },
+      {
+        "hranolky": "french fries"
+      },
+      {
+        "jáhly": "millet"
+      },
+      {
+        "rýže": "rice"
+      },
+      {
+        "knedlík": "dumpling"
+      },
+      {
+        "bramborové krokety": "potato croquettes"
+      },
+      {
+        "omáčka": "sauce"
       }
     ]
   }

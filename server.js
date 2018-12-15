@@ -3,38 +3,16 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
-const recipes = require('./routes/api/recipes');
+const vocab = require('./routes/vocab');
 
 const app = express();
-require('dotenv').load();
 
 app.use(bodyParser.json(), cors());
 
-const PORT = process.env.PORT || 3001;
-
-console.log('URI: ', MONGODB_URI);
-
-mongoose
-  .connect(
-    MONGODB_URI,
-    { useNewUrlParser: true }
-  )
-  .then(() => {
-    console.log('Mongodb connected!');
-  })
-  .catch(err => {
-    console.log(err);
-  });
+const PORT = process.env.PORT || 3000;
 
 // * Use routes
-app.use('/api/recipes', recipes);
-
-// * Serve static assests if in prod mode
-if (process.env.NODE_ENV === 'production') {
-  // * Set static folder
-  app.use(express.static('client/build'));
-  app.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html')));
-}
+app.use('/api', vocab);
 
 app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);

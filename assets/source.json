@@ -1,0 +1,18 @@
+{
+  "topics": [
+    "work",
+    "nature"
+  ],
+  "vocab": {
+    "nature": [
+      {
+        "zvire": "animal"
+      }
+    ],
+    "work": [
+      {
+        "zamestnanec": "employee"
+      }
+    ]
+  }
+}

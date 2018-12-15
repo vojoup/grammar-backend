@@ -6,13 +6,13 @@
   "vocab": {
     "nature": [
       {
-        "zvire": "animal",
+        "zvire": "animal"
       },
       {
-        "strom": "tree",
+        "strom": "tree"
       },
       {
-        "brouk": "bug",
+        "brouk": "bug"
       }
     ],
     "work": [

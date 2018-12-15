@@ -7,7 +7,9 @@ const vocab = require('./routes/vocab');
 
 const app = express();
 
-app.use(bodyParser.json(), cors());
+app.use(bodyParser.json());
+app.use(cors());
+// app.use((res) => res.header("Access-Control-Allow-Origin", "*"));
 
 const PORT = process.env.PORT || 3000;
 

@@ -8,7 +8,7 @@ const db = require('../assets/source.json');
  * Get all topics
  */
 router.get('/topics', (req, res) => {
-  res.json(db.topics);
+  res.json(JSON.stringify(db.topics));
 });
 
 /**
@@ -17,7 +17,7 @@ router.get('/topics', (req, res) => {
  */
 router.get('/topics/:topic/vocab', (req, res) => {
   const topic = req.params['topic'];
-  res.json(db.vocab[topic]);
+  res.json(JSON.stringify(db.vocab[topic]));
 });
 
 module.exports = router;

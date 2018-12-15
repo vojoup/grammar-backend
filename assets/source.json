@@ -6,12 +6,24 @@
   "vocab": {
     "nature": [
       {
-        "zvire": "animal"
+        "zvire": "animal",
+      },
+      {
+        "strom": "tree",
+      },
+      {
+        "brouk": "bug",
       }
     ],
     "work": [
       {
         "zamestnanec": "employee"
+      },
+      {
+        "schuzka": "meeting"
+      },
+      {
+        "spolecnost": "company"
       }
     ]
   }
